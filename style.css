@@ -1,9 +1,16 @@
 body{
   background-image: linear-gradient(180deg, #1E2131, #373E5E);
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background 1s;
   padding: 25px;
   font-family: 'Genos', sans-serif;
+}
+input {
+  color: white;
+  outline: none;
 }
 @media (min-width: 0) and (max-width: 360px){
   from div{
